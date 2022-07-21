@@ -21,4 +21,4 @@ class Database:
     def loadDatabase(FileName:str):
         with open(FileName,"rb") as unopened_file:
             Database = pickle.load(unopened_file)
-        return Databased
+        return Database
